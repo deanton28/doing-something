@@ -1,13 +1,35 @@
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 header,
 main,
 footer,
+nav,
 div {
   margin: 5px;
   min-height: 10px;
   border: 1px solid #000;
+}
+
+.container-menu {
+  padding: 5px;
+  background-color: #25cd96;
+}
+
+.main-menu {
+  margin: 0;
+  padding: 10px 15px;;
+  list-style: none;
+  border: 1px solid #000;
+}
+
+.main-menu li {
+  margin-bottom: 8px;
+}
+
+.main-menu a {
+  color: #414044
 }

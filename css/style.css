@@ -2,34 +2,51 @@ body {
   margin: 0;
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
+  background: #b6eeeb;
 }
 
 header,
 main,
-footer,
-nav,
-div {
+footer {
   margin: 5px;
   min-height: 10px;
   border: 1px solid #000;
 }
 
 .container-menu {
-  padding: 5px;
-  background-color: #25cd96;
+  margin: 5px;
 }
 
 .main-menu {
   margin: 0;
-  padding: 10px 15px;;
+  padding: 0;
   list-style: none;
   border: 1px solid #000;
+  background: #edcae5;
 }
 
 .main-menu li {
-  margin-bottom: 8px;
+  display: inline-block;
+  margin-right: -5px;
+  width: 33%;
+  text-align: center;
+}
+
+.main-menu li:not(:first-child) {
+  border-left: 1px solid #000;
+}
+
+.main-menu li:hover {
+  background: #b7f1c3;
 }
 
 .main-menu a {
-  color: #414044
+  display: block;
+  padding: 8px 10px;
+  color: #414044;
+  text-decoration: none;
+}
+
+.sub-menu {
+  display: none;
 }
